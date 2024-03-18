@@ -1,6 +1,7 @@
 const ContactForm = () => {
   return (
-    <form action="" className="border border-gray text-black p-6 w-full rounded">
+    <>
+      <form action="" className="border border-gray text-black p-6 w-11/12 xs:w-full rounded">
       <div className="flex flex-col gap-6">
         <div className="flex flex-col gap-2">
           <label htmlFor="name">Name</label>
@@ -31,6 +32,7 @@ const ContactForm = () => {
       </div>
       <button className="bg-gray font-semibold text-white rounded-lg mt-5 w-full p-4 hover:bg-cream hover:text-gray">Sumbit</button>
     </form>
+    </>
   );
 };
 

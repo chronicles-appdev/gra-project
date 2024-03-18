@@ -10,21 +10,18 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      <main>
+      <main className="w-full">
         <section
-          className="relative bg-cover bg-center h-screen mt-20 "
+          className="relative bg-cover bg-center w-full h-screen mt-20 py-60"
           style={{ backgroundImage: "url(/image1.jpg)" }}
         >
           <div className="absolute inset-0 bg-black opacity-80"></div>
-          <section className="absolute inset-0 flex items-center justify-between py-6 px-20">
+          <section className="absolute inset-0 flex items-center justify-between py-6 px-10 md:px-20">
             <div className="text-white">
-              <h1 className="text-4xl font-bold leading-10">
-                NO ONE CAN SURELY PREDICT
+              <h1 className="font-bold text-xl xs:text-2xl sm:text-4xl ">
+                NO ONE CAN SURELY PREDICT <br /> THE FUTURE. BUT WE CAN PROTECT IT.
               </h1>
-              <h1 className="text-4xl font-bold">
-                THE FUTURE. BUT WE CAN PROTECT IT.
-              </h1>
-              <p className="mt-8 text-lg md:w-1/2 text-center">
+              <p className="mt-8 text-md xs:text-lg w-full md:w-1/2 text-center">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
                 tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
               </p>
@@ -38,13 +35,13 @@ const Home = () => {
 
         <Investment />
         <Investment2 />
-        <section className="absolute top-[2700px] md:top-[2000px]">
+        <section className="w-full absolute top-[165rem]  md:top-[125rem]">
           <Values />
           <Growth />
           <Contact />
         </section>
       </main>
-      <section className="relative top-[3800px] md:top-[3500px] ">
+      <section className="w-full relative top-[230rem] sm:top-[240rem] md:top-[220rem]">
         <Footer />
       </section>
     </>

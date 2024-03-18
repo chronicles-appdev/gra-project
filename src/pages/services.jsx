@@ -13,7 +13,7 @@ const services = () => {
           >
             <div className="absolute inset-0 bg-black opacity-80"></div>
             <div className="absolute inset-0 flex items-center justify-center py-6 px-20">
-              <h1 className="text-white text-6xl font-bold leading-10">
+              <h1 className="text-white text-4xl xs:text-6xl font-bold leading-10">
                 Services
               </h1>
             </div>
@@ -21,7 +21,7 @@ const services = () => {
 
           <div className="bg-gray flex items-center justify-center text-white py-20 px-10">
             <div className="text-center md:text-left">
-              <h1 className="text-2xl">WE SERVE A HUGE RANGE OF INDUSTRIES</h1>
+              <h1 className="text-xl xs:text-2xl">WE SERVE A HUGE RANGE OF INDUSTRIES</h1>
               <p className="leading-8 mt-5">
                 Neque porro quisquam est, quiipsum quia dolor sit amet,
                 consectetur adipisci numquam eius modi tempora incidunt lores ta
@@ -36,7 +36,7 @@ const services = () => {
         </section>
         <section className="bg-[#f7f7f7f7] flex items-center justify-center h-60 p-10">
           <div className="text-center">
-            <p className="text-4xl mb-5">Strategy. Planning. Execution.</p>
+            <p className="text-xl xs:text-2xl mb-5">Strategy. Planning. Execution.</p>
             <p>
               Neque porro quisquam est, quiipsum quia dolor sit amet,
               consectetur adipisci numquam eius modi tempora incidunt lores ta
@@ -47,16 +47,16 @@ const services = () => {
         <section>
           <div className="grid md:grid-cols-2 ">
             <div
-              className="relative bg-cover bg-center h-screen"
+              className="mb-80 md:mb-0 relative bg-cover bg-center h-full"
               style={{ backgroundImage: "url(/femaleboss.jpg)" }}
             >
               <div className="absolute inset-0 bg-black opacity-50"></div>
             </div>
 
-            <div className="grid justify-center items-center px-10 py-20">
-              <div className="flex flex-col gap-6">
+            <div className="grid justify-center items-center px-10 py-20 gap-8">
+              <div className="flex flex-col gap-2">
                 <p>FINANACE</p>
-                <p className="text-4xl">Finance Management</p>
+                <p className="text-xl xs:text-2xl">Finance Management</p>
                 <p>
                   Qui dolore ipsum quia dolor sit amet, consectetur adipisci
                   velit, sed quia non numquam eius modi tempora incidunt lores
@@ -64,9 +64,9 @@ const services = () => {
                 </p>
               </div>
 
-              <div className="flex flex-col gap-6">
+              <div className="flex flex-col gap-2">
                 <p>TAX</p>
-                <p className="text-4xl">Tax Planning / Preparation</p>
+                <p className="text-xl xs:text-2xl">Tax Planning / Preparation</p>
                 <p>
                   Qui dolore ipsum quia dolor sit amet, consectetur adipisci
                   velit, sed quia non numquam eius modi tempora incidunt lores
@@ -77,19 +77,19 @@ const services = () => {
           </div>
 
           <div className="grid md:grid-cols-2">
-            <div className="grid justify-center items-center px-10 py-20">
-              <div className="flex flex-col gap-6">
+            <div className="order-2 md:order-1 grid justify-center gap-8 items-center px-10 py-20">
+              <div className="flex flex-col gap-2">
                 <p>BUSINESS</p>
-                <p className="text-4xl">Business Advice</p>
+                <p className="text-xl xs:text-2xl">Business Advice</p>
                 <p>
                   Qui dolore ipsum quia dolor sit amet, consectetur adipisci
                   velit, sed quia non numquam eius modi tempora incidunt lores
                   ta porro ame.
                 </p>
               </div>
-              <div className="flex flex-col gap-6">
+              <div className="flex flex-col gap-2">
                 <p>PAYROLL</p>
-                <p className="text-4xl">Payroll Management</p>
+                <p className="text-xl xs:text-2xl">Payroll Management</p>
                 <p>
                   Qui dolore ipsum quia dolor sit amet, consectetur adipisci
                   velit, sed quia non numquam eius modi tempora incidunt lores
@@ -98,7 +98,7 @@ const services = () => {
               </div>
             </div>
             <div
-              className="relative bg-cover bg-center h-screen"
+              className="mb-80 md:mb-0 order-1 md:order-1 relative bg-cover bg-center h-full"
               style={{ backgroundImage: "url(/paperwork.jpg)" }}
             >
               <div className="absolute inset-0 bg-black opacity-50"></div>

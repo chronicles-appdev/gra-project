@@ -2,7 +2,7 @@ import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } 
 import Root from "./routes/root";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Contact from "./pages/Contact";
+import Contact from "./pages/ContactPage";
 import Services from "./pages/services";
 
 const App = () => {
