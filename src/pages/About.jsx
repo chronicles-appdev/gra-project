@@ -133,6 +133,7 @@ const About = () => {
                 tetur numquam eius modi tempora incidunt lores ta porro
               </p>
             </div>
+
             <div className="flex flex-col gap-4">
               <p className="text-sm">DIRECTOR</p>
               <p className="text-xl">Harvey Spector</p>
@@ -141,6 +142,7 @@ const About = () => {
                 tetur numquam eius modi tempora incidunt lores ta porro
               </p>
             </div>
+            
             <div className="flex flex-col gap-4">
               <p className="text-sm">DIRECTOR</p>
               <p className="text-xl">Harvey Spector</p>
