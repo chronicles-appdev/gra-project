@@ -22,8 +22,7 @@ const Home = () => {
                 NO ONE CAN SURELY PREDICT <br /> THE FUTURE. BUT WE CAN PROTECT IT.
               </h1>
               <p className="mt-8 text-md xs:text-lg w-full md:w-1/2 text-center">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-                tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                Global Risk Associates Limited was established in 1981.
               </p>
 
               <button className="text-white border border-2px border-white py-4 px-6 rounded-2xl mt-20 hover:bg-cream hover:text-gray hover:border-none">

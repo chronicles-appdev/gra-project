@@ -93,11 +93,11 @@ const About = () => {
               <p className="leading-8 mt-5">
 
                 <ul>
-                  <li> <strong>Adaptable:</strong> We seek options that work</li>
-                  <li><strong>Goal Driven:</strong> We see the big picture</li>
-                  <li><strong>Integrity:</strong> We keep your trust</li>
-                  <li><strong>Leadership:</strong> We show and go the way</li>
-                  <li><strong>Empathy:</strong> We care about others</li>
+                  <li> <strong>Adaptable: </strong> We seek options that work</li>
+                  <li><strong>Goal Driven: </strong> We see the big picture</li>
+                  <li><strong>Integrity: </strong> We keep your trust</li>
+                  <li><strong>Leadership: </strong> We show and go the way</li>
+                  <li><strong>Empathy: </strong> We care about others</li>
                 </ul>
 
               </p>
@@ -107,33 +107,38 @@ const About = () => {
         <section className="px-10 py-10">
           <p className="text-xl xs:text-2xl text-center">Board Of Directors</p>
           <div className="grid md:grid-cols-3 gap-4 mt-10">
+
             <div className="md:bg-[#f7f7f7] p-10 flex flex-col justify-center items-center">
               <div></div>
-              <p>AMANDA LEE</p>
-              <p>Founder / Director</p>
+              <p>Mr. Sola Agbelusi</p>
+              <p>Managing Director/CEO</p>
               <p className="leading-8">
-                Neque porro quisquam est, quiipsum quia dolor sit amet, consec
-                tetur numquam eius modi tempora incidunt lores ta porro
+                Sola holds both the Higher National
+                Diploma in Insurance from the Lagos State Polytechnic and also a Bachelor of Science
+                Degree from the University of Lagos.
               </p>
               <div></div>
             </div>
+
             <div className="bg-white p-10 flex flex-col justify-center items-center">
               <div></div>
-              <p>AMANDA LEE</p>
-              <p>Founder / Director</p>
+              <p>Mrs. Temitope Oluwabukola Daramola</p>
+              <p> (Bsc. AMNIM)</p>
               <p className="leading-8">
-                Neque porro quisquam est, quiipsum quia dolor sit amet, consec
-                tetur numquam eius modi tempora incidunt lores ta porro
+                She holds a Degree in Home
+                Economics from the University of Ado Ekiti, Nigeria, followed by a Masters in Education
+                Management from the University of Lagos, Nigeria.
               </p>
               <div></div>
             </div>
+
             <div className="p-10 flex flex-col justify-center items-center">
               <div></div>
-              <p>AMANDA LEE</p>
-              <p>Founder / Director</p>
+              <p>Mr. Michael Oni Olorunleke</p>
+              <p>Partner</p>
               <p className="leading-8">
-                Neque porro quisquam est, quiipsum quia dolor sit amet, consec
-                tetur numquam eius modi tempora incidunt lores ta porro
+                He is a Fellow of the Institute of Chartered Accountants
+                of Nigeria and a Fellow of the Chartered Institute of Taxation of Nigeria
               </p>
               <div></div>
             </div>
