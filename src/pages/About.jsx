@@ -11,7 +11,8 @@ const About = () => {
             className="relative bg-cover bg-center h-screen mt-20 "
             style={{ backgroundImage: "url(/service.jpg)" }}
           >
-            <div className="absolute inset-0 bg-black opacity-80"></div>
+            <div className="absolute inset-0 bg-black opacity-80">
+            </div>
             <div className="absolute inset-0 flex items-center justify-center py-6 px-20">
               <h1 className="text-white text-4xl md:text-6xl font-bold leading-10">
                 About Us
@@ -25,9 +26,18 @@ const About = () => {
                 WE ARE &quot;GLOBAL RISKS ASSOCIATION&quot;
               </h2>
               <p className="leading-8 mt-5">
-                Neque porro quisquam est, quiipsum quia dolor sit amet,
-                consectetur adipisci numquam eius modi tempora incidunt lores ta
-                porro ame.
+                Global Risk Associates Limited was established in 1981. The company is registered by the
+                Nigerian Council of Registered Insurance Brokers (NCRIB) and is duly licensed by the National
+                Insurance Commission (NAICOM) to provide insurance and reinsurance broking services
+                including Life and General Business lines..
+                We are adequately structured to provide insurance broking services to individuals and
+                institutions cutting across Banking, Financial Services, Taxation, Management Consulting,
+                Engineering, Construction, Aviation, Maritime, Oil, Gas, Energy and Power, Trading,
+                Telecommunication, Agriculture, Mining and other Private Sector businesses. We will consider
+                public sector initiatives with a private sector governance platform and outlook.
+                Our core competence lies in our deep knowledge of the Nigerian Insurance Market, access
+                to the key underwriting companies and ability to access the international insurance market
+                as the need arises.
               </p>
 
               <button className="border border-white px-6 py-4 text-white hover:bg-cream hover:text-gray hover:border-none mt-10 rounded-full ">
@@ -38,22 +48,20 @@ const About = () => {
         </section>
         <section className="flex flex-col md:flex-row px-10 py-20 gap-8 text-[#292D32]">
           <div className="text-center md:w-3/4">
-            <p className="text-sm xs:text-md">Who We Are</p>
+            {/* <p className="text-sm xs:text-md">Who We Are</p> */}
             <hr className="mt-10 border-b-[2px]" />
             <p className="text-xl xs:text-2xl mt-5 text-black">Company Profile</p>
           </div>
           <div className="text-md md:text-lg">
             <p>
-              Qui dolore ipsum quia dolor sit amet, consectetur adipisci velit.
+
+              Global Risk Associates is a leading insurance and reinsurance broker with over 30 years of
+              operation in Nigeria.
             </p>
             <p className="leading-8 mt-5">
-              Fames sequi placerat, laboris, nascetur posuere incidunt tempus
-              sequi tenetur? Excepturi eum elementum rem, minima? Error, tempore
-              et distinctio porta, earum! Aptent! Tenetur nibh interdum ea
-              impedit pretium, exercitation congue? Ducimus sapien! Montes
-              elementum! Doloribus fuga, molestie dolor fermentum nesciunt,
-              harum esse alias tincidunt, qui, temporibus consectetuer
-              voluptatum, porttitor, beatae delenit.
+              Our core competence lies in our deep knowledge of the Nigerian Insurance Market, access
+              to the key underwriting companies and ability to access the international insurance market
+              as the need arises.
             </p>
           </div>
         </section>
@@ -67,22 +75,31 @@ const About = () => {
             <div>
               <p className="text-lg">OUR VISION</p>
               <p className="leading-8 mt-5">
-                Qui dolore ipsum quia dolor sit amet, consectetur adipisci
-                velit, sed quia non numquam eius modi tempora porro ame.
+                Our Vision is to become a leading provider of insurance broking and risk management
+                advisory services in West Africa with access to the global insurance market.
               </p>
             </div>
             <div>
               <p className="text-lg">OUR MISSION</p>
               <p className="leading-8 mt-5">
-              Neque porro quisquam est, quiipsum quia dolor sit amet,
-                consectetur adipisci numquam eius modi tempora incidunt.
+                Our Mission is to provide insurance broking and risk management advisory services that meets
+                the needs of our customers. We deliver professional and exceptional service combining
+                knowledge, technology and the spirit of enterprise.
+
               </p>
             </div>
             <div>
               <p className="text-lg">OUR VALUES</p>
               <p className="leading-8 mt-5">
-                Neque porro quisquam est, quiipsum quia dolor sit amet,
-                consectetur adipisci numquam eius modi tempora incidunt.
+
+                <ul>
+                  <li> <strong>Adaptable:</strong> We seek options that work</li>
+                  <li><strong>Goal Driven:</strong> We see the big picture</li>
+                  <li><strong>Integrity:</strong> We keep your trust</li>
+                  <li><strong>Leadership:</strong> We show and go the way</li>
+                  <li><strong>Empathy:</strong> We care about others</li>
+                </ul>
+
               </p>
             </div>
           </div>
@@ -142,7 +159,7 @@ const About = () => {
                 tetur numquam eius modi tempora incidunt lores ta porro
               </p>
             </div>
-            
+
             <div className="flex flex-col gap-4">
               <p className="text-sm">DIRECTOR</p>
               <p className="text-xl">Harvey Spector</p>
