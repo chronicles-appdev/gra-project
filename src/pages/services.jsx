@@ -23,9 +23,7 @@ const services = () => {
             <div className="text-center md:text-left">
               <h1 className="text-xl xs:text-2xl">WE SERVE A HUGE RANGE OF INDUSTRIES</h1>
               <p className="leading-8 mt-5">
-                Neque porro quisquam est, quiipsum quia dolor sit amet,
-                consectetur adipisci numquam eius modi tempora incidunt lores ta
-                porro ame.
+                Our services span a broad spectrum of industries, ranging from banking and finance to telecommunications and agriculture, allowing us to provide specialized solutions to a wide array of clients.
               </p>
 
               <button className="border border-white px-6 py-4 text-white hover:bg-cream hover:text-gray hover:border-none mt-10 rounded-full ">
@@ -38,9 +36,7 @@ const services = () => {
           <div className="text-center">
             <p className="text-xl xs:text-2xl mb-5">Strategy. Planning. Execution.</p>
             <p>
-              Neque porro quisquam est, quiipsum quia dolor sit amet,
-              consectetur adipisci numquam eius modi tempora incidunt lores ta
-              porro ame.
+              Our integrated approach combines strategic insight, thorough planning, and efficient execution to deliver sustainable results across diverse industries.
             </p>
           </div>
         </section>
@@ -55,12 +51,10 @@ const services = () => {
 
             <div className="grid justify-center items-center px-10 py-20 gap-8">
               <div className="flex flex-col gap-2">
-                <p>FINANACE</p>
+                <p>FINANCE</p>
                 <p className="text-xl xs:text-2xl">Finance Management</p>
                 <p>
-                  Qui dolore ipsum quia dolor sit amet, consectetur adipisci
-                  velit, sed quia non numquam eius modi tempora incidunt lores
-                  ta porro ame.
+                  We optimize fund utilization and financial strategy leveraging deep market knowledge and international connections.
                 </p>
               </div>
 
@@ -68,9 +62,7 @@ const services = () => {
                 <p>TAX</p>
                 <p className="text-xl xs:text-2xl">Tax Planning / Preparation</p>
                 <p>
-                  Qui dolore ipsum quia dolor sit amet, consectetur adipisci
-                  velit, sed quia non numquam eius modi tempora incidunt lores
-                  ta porro ame.
+                  We provide tailored tax strategies and ensure compliance with Nigerian tax laws.
                 </p>
               </div>
             </div>
@@ -82,18 +74,14 @@ const services = () => {
                 <p>BUSINESS</p>
                 <p className="text-xl xs:text-2xl">Business Advice</p>
                 <p>
-                  Qui dolore ipsum quia dolor sit amet, consectetur adipisci
-                  velit, sed quia non numquam eius modi tempora incidunt lores
-                  ta porro ame.
+                  We offer industry-specific guidance to enhance operations and drive growth.
                 </p>
               </div>
               <div className="flex flex-col gap-2">
                 <p>PAYROLL</p>
                 <p className="text-xl xs:text-2xl">Payroll Management</p>
                 <p>
-                  Qui dolore ipsum quia dolor sit amet, consectetur adipisci
-                  velit, sed quia non numquam eius modi tempora incidunt lores
-                  ta porro ame.
+                  Our seamless payroll services ensure timely and accurate payments while maintaining regulatory compliance.
                 </p>
               </div>
             </div>
@@ -106,25 +94,25 @@ const services = () => {
           </div>
         </section>
         <section className="bg-[#f7f7f7] grid md:grid-cols-2 gap-10 px-10 py-20">
-            <div className="flex flex-col gap-4">
-                <p>OTHER SERVICES</p>
-                <p className="text-xl font-semibold">WE PROVIDE POSSIBLE SOLUTIONS TO GIVE YOUR BUSINESS A COMPETITIVE EDGE</p>
-                <p>Qui dolore ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt lores ta porro ame.</p>
+          <div className="flex flex-col gap-4">
+            <p>OTHER SERVICES</p>
+            <p className="text-xl font-semibold">WE PROVIDE POSSIBLE SOLUTIONS TO GIVE YOUR BUSINESS A COMPETITIVE EDGE</p>
+            <p>We offer innovative solutions tailored to enhance your business's competitive advantage, leveraging our expertise and market insights to drive sustainable growth and success. With a focus on creativity and strategic thinking, we empower your business to stay ahead in today's dynamic marketplace.</p>
+          </div>
+          <div className="flex flex-col gap-4">
+            <div className="border-b border-[#eeeeee] pb-4 flex">
+              <p className="font-semibold text-lg">Financial Accounting</p>
             </div>
-            <div className="flex flex-col gap-4">
-                <div className="border-b border-[#eeeeee] pb-4 flex">
-                    <p className="font-semibold text-lg">Financial Accounting</p>
-                </div> 
-                <div className="border-b border-[#eeeeee] pb-4">
-                    <p className="font-semibold text-lg">Tax Management</p>
-                </div>
-                <div className="border-b border-[#eeeeee] pb-4">
-                    <p className="font-semibold text-lg">Legal Advice</p>
-                </div>
-                <div className="border-b border-[#eeeeee] pb-4">
-                    <p className="font-semibold text-lg">Business Propogation</p>
-                </div>
+            <div className="border-b border-[#eeeeee] pb-4">
+              <p className="font-semibold text-lg">Tax Management</p>
             </div>
+            <div className="border-b border-[#eeeeee] pb-4">
+              <p className="font-semibold text-lg">Legal Advice</p>
+            </div>
+            <div className="border-b border-[#eeeeee] pb-4">
+              <p className="font-semibold text-lg">Business Propogation</p>
+            </div>
+          </div>
         </section>
       </main>
       <Footer />
