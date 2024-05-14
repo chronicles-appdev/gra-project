@@ -1,5 +1,7 @@
 import chart from "/chart.png"
 import feature2 from "/feature-2.jpg"
+import { Link } from 'react-router-dom';
+
 
 const investment2 = () => {
   return (
@@ -24,10 +26,12 @@ const investment2 = () => {
          <hr className="text-white mt-5 border-b-[2px] w-60 lg:w-20 "/>
          </div>
      
-          <p className="mt-5 leading-8">Finding the right insurance shouldn't break the bank. Our experienced brokers work tirelessly to understand your specific needs and risk profile. By leveraging our strong relationships with insurers, we negotiate competitive rates and ensure you only pay for the coverage you truly need. </p>
+          <p className="mt-5 mb-7 leading-8">Finding the right insurance shouldn't break the bank. Our experienced brokers work tirelessly to understand your specific needs and risk profile.  </p>
+          <Link to="/about">
           <div className="flex justify-center items-center md:justify-start mt-8 md:mt-0">
           <button className="font-semibold py-4 px-8 rounded-2xl border border-white flex items-center justify-center gap-3 hover:bg-cream hover:text-gray hover:border-cream mb-14">KNOW MORE <p className="text-xl">&gt;</p> </button>
           </div>
+          </Link>
         </div>
       </section>
     </section>
