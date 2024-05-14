@@ -1,5 +1,6 @@
 import investment from "/investment.png";
 import feature1 from "/feature-1.jpg";
+import { Link } from 'react-router-dom';
 
 const Investment = () => {
   return (
@@ -10,20 +11,21 @@ const Investment = () => {
             <img src={investment} alt="" className="w-28" />
           </div>
           <h1 className="mt-10 text-xl sm:text-2xl md:w-60">
-            BEST INVESTMENT PLANS
+          OUR MISSION
           </h1>
           <div className="flex justify-center md:justify-start">
             <hr className="text-white mt-5 border-b-[2px] w-60 md:w-20 " />
           </div>
 
           <p className="mt-5 leading-8">
-            Qui dolore ipsum quia dolor sit amet, consectetur adipisci velit,
-            sed quia non numquam eius modi tempora incidunt lores ta porro ame.
+          To provide insurance broking and risk management services to meet customer needs with professional, exceptional service.
           </p>
           <div className="flex justify-center items-center md:justify-start mt-8 ">
-            <button className="font-semibold py-4 px-8 rounded-2xl border border-white flex items-center justify-center gap-3 hover:bg-cream hover:text-gray hover:border-cream mb-14 md:mb-0">
-              KNOW MORE <p className="text-xl">&gt;</p>{" "}
-            </button>
+          <Link to="/about">
+  <button className="font-semibold py-4 px-8 rounded-2xl border border-white flex items-center justify-center gap-3 hover:bg-cream hover:text-gray hover:border-cream mb-14 md:mb-0">
+    KNOW MORE <p className="text-xl">&gt;</p>{" "}
+  </button>
+</Link>
           </div>
         </div>
 
@@ -32,15 +34,14 @@ const Investment = () => {
         </div>
         <div className="flex flex-col justify-center md:row-span-2 md:col-span-2 bg-[#f7f7f7f7]  py-10 px-8 text-center md:text-left">
           <h2 className="text-xl sm:text-2xl">
-            We Teach You How To Invest Your Money
+          WE TAKE THE RISK OUT OF INSURANCE
           </h2>
           <div className="flex justify-center md:justify-start">
             <hr className="mt-5 border-b-[2px] w-40 " />
           </div>
           <p className="mt-5 text-sm sm:text-md">
-            Neque porro quisquam est, qui dolore ipsum quia dolor sit amet,
-            consectetur adipisci velit, sed quia non numquam eius modi tempora
-            incidunt lores ta porro ame.
+          Our team of experienced professionals has a deep understanding of the Nigerian insurance market and access to key underwriting companies.
+ We offer a range of insurance and reinsurance broking services for individuals and institutions across various industries, including Banking, Financial Services, Manufacturing, and more.
           </p>
         </div>
       </section>

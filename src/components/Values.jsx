@@ -15,27 +15,27 @@ const Values = () => {
       <div className="grid grid-cols-2 md:flex gap-6 justify-around items-center p-6 mt-5">
         <div className="flex flex-col items-center justify-center gap-3">
           <img src={trust} alt="" className="w-16 sm:w-20" />
-          <p className="font-semibold text-lg">Trust</p>
+          <p className="font-semibold text-lg">Leadership</p>
         </div>
 
         <div className="flex flex-col items-center justify-center gap-3">
           <img src={consistency} alt="" className="w-16 sm:w-20" />
-          <p className="font-semibold text-lg">Consistency</p>
+          <p className="font-semibold text-lg">Adaptable</p>
         </div>
 
         <div className="flex flex-col items-center justify-center gap-3">
           <img src={team} alt="" className="w-16 sm:w-20" />
-          <p className="font-semibold text-lg">Team</p>
+          <p className="font-semibold text-lg">Integrity</p>
         </div>
 
         <div className="flex flex-col items-center justify-center gap-3">
           <img src={excellence} alt="" className="w-16 sm:w-20" />
-          <p className="font-semibold text-lg">Excellence</p>
+          <p className="font-semibold text-lg">Goal Driven</p>
         </div>
 
         <div className="flex flex-col items-center justify-center gap-3">
           <img src={focus} alt="" className="w-16 sm:w-20 " />
-          <p className="font-semibold text-lg">Focus</p>
+          <p className="font-semibold text-lg">Empathy</p>
         </div>
       </div>
     </section>

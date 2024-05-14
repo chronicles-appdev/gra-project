@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/footer";
-
+import CEO from "../assets/images/CEO.jpg";
+import head from "../assets/images/head.jpg";
 const About = () => {
   return (
     <>
@@ -40,9 +41,7 @@ const About = () => {
                 as the need arises.
               </p>
 
-              <button className="border border-white px-6 py-4 text-white hover:bg-cream hover:text-gray hover:border-none mt-10 rounded-full ">
-                KNOW MORE
-              </button>
+             
             </div>
           </div>
         </section>
@@ -108,20 +107,27 @@ const About = () => {
           <p className="text-xl xs:text-2xl text-center">Board Of Directors</p>
           <div className="grid md:grid-cols-3 gap-4 mt-10">
 
-            <div className="md:bg-[#f7f7f7] p-10 flex flex-col justify-center items-center">
+            <div className="p-10 flex flex-col justify-center items-center">
               <div></div>
-              <p>Mr. Sola Agbelusi</p>
-              <p>Managing Director/CEO</p>
+         
+              <img src={CEO} alt="CEO" className="w-44 mb-3 h-44 rounded-full" />
+              <div className="flex-col h-48 items-center justify-center" >
+              <p  className="text-center" >Mr. Sola Agbelusi</p>
+              <p  className="text-center" > Managing Director/CEO</p>
               <p className="leading-8">
                 Sola holds both the Higher National
                 Diploma in Insurance from the Lagos State Polytechnic and also a Bachelor of Science
                 Degree from the University of Lagos.
               </p>
+          
+              </div>
               <div></div>
+
             </div>
 
             <div className="bg-white p-10 flex flex-col justify-center items-center">
               <div></div>
+              <img src={head} alt="Head of operations" className="w-44 mb-3 h-44 rounded-full" />
               <p>Mrs. Temitope Oluwabukola Daramola</p>
               <p> (Bsc. AMNIM)</p>
               <p className="leading-8">
@@ -134,6 +140,7 @@ const About = () => {
 
             <div className="p-10 flex flex-col justify-center items-center">
               <div></div>
+              <div  className="w-44 h-44" ></div>
               <p>Mr. Michael Oni Olorunleke</p>
               <p>Partner</p>
               <p className="leading-8">
@@ -144,7 +151,7 @@ const About = () => {
             </div>
           </div>
         </section>
-        <section className="px-10 pt-10 pb-40">
+        {/* <section className="px-10 pt-10 pb-40">
           <p className="text-xl xs:text-2xl text-center">Our Team</p>
           <div className="grid md:grid-cols-3 mt-10 gap-8">
             <div className="flex flex-col gap-4">
@@ -174,7 +181,7 @@ const About = () => {
               </p>
             </div>
           </div>
-        </section>
+        </section> */}
       </main>
       <Footer />
     </>

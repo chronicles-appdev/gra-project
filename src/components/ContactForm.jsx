@@ -30,7 +30,7 @@ const ContactForm = () => {
             className="border-[1.5px] border-gray p-4 rounded-lg"
           ></textarea>
         </div>
-        <button className="bg-gray font-semibold text-white rounded-lg mt-5 w-full p-4 hover:bg-cream hover:text-gray">Sumbit</button>
+        <button className="bg-gray font-semibold text-white rounded-lg mt-5 w-full p-4 hover:bg-cream hover:text-gray">Submit</button>
       </form>
     </>
   );
